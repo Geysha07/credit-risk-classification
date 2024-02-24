@@ -1,5 +1,7 @@
 Module 20 Challenge: Credit-Risk-Classification
+
 Credit Risk Analysis Report
+
 1.	An overview of the analysis: Explain the purpose of this analysis.
 The purpose of this analysis is to train and evaluate a model using historical data from a peer-to-peer lending services company to identify the creditworthiness of borrowers. 
 We started by reading the data from the CSV file "lending_data.csv" into a Pandas DataFrame. After, we create the labels set (y) from the "loan_status" column. The values in the "loan_status" column are either 0, which mean that the loan is healthy, and 1, which means that the loan is high-risk. Next, we created the features (X) DataFrame by dropping the "loan_status" column and keeping the remaining columns. Then, we split the data into training and testing datasets using "train_test_split. Then, we created a logistic regreesion model, calculated the accuracy, generated a confusion matrix and printed the classification report with the data. 
